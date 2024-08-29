@@ -1,8 +1,6 @@
-# Tendo a base e a altura de um triângulo, calcule sua área por meio da fórmula: area = (base x altura)/2.
+# Tendo como base o salário de um funcionário, faça o acréscimo de 20% sobre seu valor e exiba-o. DICA: para fazer o acréscimo, multiplique o valor do salário por 1,20.
 
-base = int(input("Digite a base do triângulo: "))
-altura = int(input("Digite a altura do triângulo: "))
+salario = float(input("Informe o salário do funcionário: "))
+cAcres = salario * 1.20
 
-area = base * altura / 2
-
-print(f"a área do triângulo é {area}")
+print(f"O salário do funcionário com acrescimo de 20% é {cAcres}")
